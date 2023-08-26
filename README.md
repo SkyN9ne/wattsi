@@ -44,7 +44,7 @@ For guidance on installing fpc, see the next section.
 
 ### Installing the Free Pascal Compiler (fpc)
 
-Wattsi is written in [Free Pascal](https://www.freepascal.org/), so to build Wattsi, you'll need version 3.0.4 or later of the Free Pascal Compiler (fpc). You can get fpc by [downloading a freepascal.org upstream release](https://www.freepascal.org/download.var) — but it’s recommended that you instead install fpc using a package manager.
+Wattsi is written in [Free Pascal](https://www.freepascal.org/), so to build Wattsi, you'll need version 3.0.4+ or later of the Free Pascal Compiler (fpc). You can get ```fpc``` by [downloading a freepascal.org upstream release](https://www.freepascal.org/download.var) — but it’s recommended that you instead install ```fpc``` using a package manager.
 
 #### Installing fpc on Debian and Ubuntu
 
@@ -65,7 +65,9 @@ brew install fpc
 
 #### Installing fpc on macOS from a freepascal.org upstream release
 
-If you don’t want to use homebrew but instead prefer to install a freepascal.org upstream release, you must get fpc 3.0.4a or later. The *“a”* there is important — the initial 3.0.4 package will not work as expected on macOS Mojave (10.14) or later.
+If you don’t want to use ```homebrew``` but instead prefer to install a freepascal.org upstream release, you must get ```fpc``` 3.0.4a or later. 
+
+The *“a”* there is important — the initial 3.0.4 package will not work as expected on macOS Mojave (10.14) or later.
 
 https://sourceforge.net/projects/freepascal/files/Mac%20OS%20X/3.0.4/fpc-3.0.4a.intel-macosx.dmg/download
 
